@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# 🦸‍♂️ SuperHero React + Vite Frontend 🦸‍♀️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a [React](https://reactjs.org/) project bootstrapped with [Vite](https://vitejs.dev/guide/).
 
-Currently, two official plugins are available:
+## 🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+First, run the development server:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Open http://localhost:3000 with your browser to see the result. 🌐
+
+You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file. 📝
+
+### 📚 Learn More
+
+To learn more about React and Vite, take a look at the following resources:
+
+- [React Documentation](https://reactjs.org/docs/getting-started.html) - learn about React features and API.
+- [Vite Documentation](https://vitejs.dev/guide/) - learn about Vite features and API.
+
+Your feedback and contributions are welcome! 🙏
+
+## 🌐 Explore the App
+
+This application offers several routes for you to explore:
+
+Buscar Publicador: Use this route to search for your favorite superhero publishing house.
+Add/Delete Heroes: You can add new superheroes or delete existing ones.
+
+Remember, this is a dynamic web application, so feel free to explore and interact with the different features and functionalities!
+
+## Want to learn about the backend? 🙏
+
+Check this repository, read through the README inside to learn how it works on the backend side of the project:
+
+[https://github.com/acalexanderac/heroesMongoDB-nestjs-nextjs](https://github.com/acalexanderac/heroesMongoDB-nestjs-nextjs)
