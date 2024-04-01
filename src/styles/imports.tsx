@@ -9,3 +9,5 @@ export { default as nestjs } from "../assets/resources/nestjs.png";
 export { default as doggo } from "../assets/resources/doggo.png";
 export { default as spiderman } from "../assets/resources/spiderman.jpg";
 export { default as supercat } from "../assets/resources/supercat.jpg";
+export { default as vite } from "../assets/resources/vite.png";
+export { default as heroes } from "../assets/resources/heroes.jpg";

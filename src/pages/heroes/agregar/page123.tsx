@@ -78,16 +78,17 @@ const HeroForm = () => {
           `http://localhost:3000/hero-informations/${params["id"]}`,
           dataToSend
         );
+        navigate("/heroes/success"); // navigate to update success page
       } else {
         // If params["id"] does not exist, create a new record
         await axios.post(
           "http://localhost:3000/hero-informations/",
           dataToSend
         );
+        navigate("/heroes/post-success"); // navigate to create success page
       }
 
       console.log(dataToSend);
-      navigate("/heroes");
       window.location.reload();
     } catch (error) {
       console.error(error);

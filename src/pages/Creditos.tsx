@@ -1,4 +1,4 @@
-import { nestjs, nextjs, tailwindcss, ubiquoLogo } from "../styles/imports";
+import { nestjs, tailwindcss, ubiquoLogo, vite } from "../styles/imports";
 
 export default function Creditos() {
   return (
@@ -18,20 +18,25 @@ export default function Creditos() {
             <div className="h-full flex flex-col items-center text-center">
               <img
                 className="tracking-widest align-middle "
-                src={nextjs}
+                src={vite}
+                width={200}
+                height={200}
                 alt="LOGO"
               />
               <div className="w-full">
                 <h2 className="title-font font-medium text-lg text-gray-900">
-                  NextJS
+                  Vite + ReactJS (TypeScript)
                 </h2>
                 <h3 className="text-gray-500 mb-3">Typescript</h3>
                 <p className="mb-4">
-                  Next.js es un marco web de desarrollo front-end de React de
-                  código abierto creado por Vercel que habilita funcionalidades
-                  como la representación del lado del servidor y la generación
-                  de sitios web estáticos para aplicaciones web basadas en
-                  React.
+                  Vite es una herramienta de construcción que proporciona un
+                  entorno de desarrollo más rápido y eficiente para las
+                  aplicaciones modernas. Se utiliza en este proyecto debido a su
+                  soporte para el desarrollo instantáneo de servidores, la
+                  generación de sitios estáticos, y la optimización automática
+                  de la página. Estas características hacen que Vite sea una
+                  excelente opción para construir aplicaciones web de alto
+                  rendimiento.
                 </p>
               </div>
             </div>
