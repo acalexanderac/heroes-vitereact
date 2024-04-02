@@ -1,11 +1,17 @@
-"use client";
+import { useEffect } from "react";
 import { heroes } from "../../../styles/imports";
+import toast from "react-hot-toast";
+
 export default function PostSuccess() {
+  useEffect(() => {
+    toast.success("Heroe Agregado!");
+  }, []);
+
   return (
     <section className="text-gray-600 body-font">
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <img
-          className="tracking-widest align-middle "
+          className="tracking-widest align-middle"
           src={heroes}
           alt="LOGO"
           width={400}

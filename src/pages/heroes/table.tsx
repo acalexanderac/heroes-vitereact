@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Gender from "../../components/subtables/gender";
 import Alignment from "../../components/subtables/alignment";
 import axios from "axios";
+import toast from "react-hot-toast";
 
 interface Hero {
   _id: string;
@@ -77,8 +78,10 @@ const Page = () => {
       try {
         await axios.delete(`http://localhost:3000/hero-informations/${id}`);
         setHeroes(heroes.filter((hero) => hero._id !== id));
+        toast.success("Héroe eliminado!");
       } catch (error) {
         console.error(error);
+        toast.error("No se pudo acceder!");
       }
     }
   };
