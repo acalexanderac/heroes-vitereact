@@ -37,13 +37,20 @@ const Page = () => {
 
   useEffect(() => {
     const fetchHeroes = async () => {
-      const response = await fetch("http://localhost:3000/zendesk/search");
+      const params = new URLSearchParams(searchCriteria as any);
+      const response = await fetch(
+        `http://localhost:3000/zendesk/search?${params.toString()}`
+      );
       const data = await response.json();
-      setHeroes(data);
+      if (data && Array.isArray(data.items)) {
+        setHeroes(data.items);
+      } else {
+        console.error("Unexpected data format:", data);
+      }
     };
 
     fetchHeroes();
-  }, []);
+  }, [searchCriteria]);
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchCriteria({
