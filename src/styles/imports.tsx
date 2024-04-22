@@ -1,13 +1,10 @@
 export { default as ubiquoLogo } from "../assets/resources/ubiquoLogo.png";
 export { default as ubiquoLogoTexto } from "../assets/resources/ubiquoLogoTexto.png";
 export { default as programmer } from "../assets/resources/programmer.svg";
-export { default as superman } from "../assets/resources/superman.svg";
-export { default as batman } from "../assets/resources/batman.svg";
+export { default as reach } from "../assets/resources/reachCMS.png";
 export { default as nextjs } from "../assets/resources/nextjs.png";
 export { default as tailwindcss } from "../assets/resources/tailwindcss.png";
 export { default as nestjs } from "../assets/resources/nestjs.png";
 export { default as doggo } from "../assets/resources/doggo.png";
-export { default as spiderman } from "../assets/resources/spiderman.jpg";
-export { default as supercat } from "../assets/resources/supercat.jpg";
+export { default as reachPC } from "../assets/resources/reachPC.png";
 export { default as vite } from "../assets/resources/vite.png";
-export { default as heroes } from "../assets/resources/heroes.jpg";

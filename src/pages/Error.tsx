@@ -1,12 +1,12 @@
 "use client";
-import { doggo } from "../styles/imports";
+import { ubiquoLogo } from "../styles/imports";
 export default function NotFound() {
   return (
     <section className="text-gray-600 body-font">
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <img
           className="tracking-widest align-middle "
-          src={doggo}
+          src={ubiquoLogo}
           alt="LOGO"
           width={400}
           height={400}

@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
-import Alignment from "../../../components/subtables/alignment";
-import Gender from "../../../components/subtables/gender";
-import Publishers from "../../../components/subtables/publisher";
 
 const HeroForm = () => {
   const navigate = useNavigate();
@@ -280,19 +277,6 @@ const HeroForm = () => {
             Submit
           </button>
         </form>
-      </div>
-      <div className="row-span-1 h-auto">
-        {" "}
-        {/* Adjusted height */}
-        <Gender />
-      </div>
-      <div className="row-span-1 h-auto">
-        {" "}
-        {/* Adjusted height */}
-        <Alignment />
-      </div>
-      <div className="col-span-2 col-start-2 row-start-2 flex justify-center items-center">
-        <Publishers />
       </div>
     </div>
   );

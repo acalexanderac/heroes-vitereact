@@ -20,28 +20,28 @@ export default function Navbar() {
                   transition-all duration-200 rounded-lg"
               to="/"
             >
-              Inicio
+              Start
             </NavLink>
             <NavLink
               className="mr-5 hover:text-black  hover:bg-gray-300 px-4 py-2.5 flex
                   transition-all duration-200 rounded-lg"
               to="/heroes"
             >
-              Búsqueda Héroes
+              Zendesk
             </NavLink>
             <NavLink
               className="mr-5 hover:text-black  hover:bg-gray-300 px-4 py-2.5 flex
                   transition-all duration-200 rounded-lg "
               to="/publicador"
             >
-              Publicador
+              Woocomerce
             </NavLink>
             <NavLink
               className="mr-5 hover:text-black  hover:bg-gray-300 px-4 py-2.5 flex
                   transition-all duration-200 rounded-lg "
               to="/errores"
             >
-              Error
+              Shopify
             </NavLink>
             <NavLink
               className="mr-5 hover:text-black  hover:bg-gray-300 px-4 py-2.5 flex

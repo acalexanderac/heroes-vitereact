@@ -1,5 +1,4 @@
-import { spiderman } from "../styles/imports";
-import Publishers from "../components/subtables/publisher";
+import { reach } from "../styles/imports";
 export default function Publicador() {
   return (
     <section className="text-gray-600 body-font">
@@ -7,15 +6,13 @@ export default function Publicador() {
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
           <img
             className="tracking-widest align-middle "
-            src={spiderman}
+            src={reach}
             alt="LOGO"
           />
         </div>
         <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
           <div className="flex flex-col mb-10 lg:items-start items-center">
-            <div className="inline-flex items-center justify-center rounded-full  text-black mb-5">
-              <Publishers />
-            </div>
+            <div className="inline-flex items-center justify-center rounded-full  text-black mb-5"></div>
           </div>
         </div>
       </div>

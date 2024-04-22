@@ -1,5 +1,5 @@
 import "../src/styles/App.css";
-import { superman } from "./styles/imports";
+import { reach } from "./styles/imports";
 function App() {
   return (
     <>
@@ -8,7 +8,7 @@ function App() {
           <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
             <img
               className="tracking-widest align-middle "
-              src={superman}
+              src={reach}
               alt="LOGO"
             />
           </div>
@@ -16,12 +16,13 @@ function App() {
             <div className="flex flex-col mb-10 lg:items-start items-center">
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                  Busca a tus Héroes
+                  Search by Techs
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Puedes buscar a tus héroes y villanos favoritos en nuestra
-                  base de datos. Sientete libre de buscar a tus personajes
-                  favoritos.
+                  Discover potential clients leveraging cutting-edge
+                  technologies such as WooCommerce, Zendesk, and more. Feel free
+                  to explore our extensive database to find your next business
+                  opportunity
                 </p>
                 <a className="mt-3 text-red-500 inline-flex items-center"></a>
               </div>
@@ -29,10 +30,10 @@ function App() {
             <div className="flex flex-col mb-10 lg:items-start items-center">
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                  Personaliza tus resultados{" "}
+                  Based on your needs{" "}
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Aplica filtros para encontrar a tus personajes favoritos.
+                  Apply filters to find the perfect client for your business.
                 </p>
                 <a className="mt-3 text-red-500 inline-flex items-center"></a>
               </div>
@@ -40,11 +41,12 @@ function App() {
             <div className="flex flex-col mb-10 lg:items-start items-center">
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                  Créditos
+                  Credits
                 </h2>
                 <p className="leading-relaxed text-base">
-                  No ólvides visitar la página de créditos para conocer al autor
-                  y las tecnologías utilizadas.
+                  This project was developed by a passionate dev by day, gamer
+                  at night. Proud to present you this awesome project. Feel free
+                  to explore and reach out.
                 </p>
                 <a className="mt-3 text-red-500 inline-flex items-center"></a>
               </div>

@@ -16,19 +16,19 @@ function HeroesCrud() {
               height={70}
             />
 
-            <span className="ml-3 text-2xl font-serif">Heroes</span>
+            <span className="ml-3 text-2xl font-serif">Zendesk Clients</span>
           </a>
         </div>
         <div className="align-center pl-5 pb-10">
           <Link to="/heroes/agregar">
             <button className="text-white bg-red-900 border-0 py-2 px-6 focus:outline-none pl-5 hover:bg-rose-500 rounded text-lg">
-              Agregar Héroe
+              Add Register
             </button>
           </Link>
 
           <Link to="/" className="pl-5">
             <button className="text-white bg-red-600 border-0 py-2 px-6 focus:outline-none pl-5 hover:bg-rose-500 rounded text-lg">
-              Regresar Menú Principal
+              Main Menu
             </button>
           </Link>
         </div>

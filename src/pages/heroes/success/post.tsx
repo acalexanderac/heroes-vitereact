@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { heroes } from "../../../styles/imports";
+import { ubiquoLogo } from "../../../styles/imports";
 import toast from "react-hot-toast";
 
 export default function PostSuccess() {
@@ -12,7 +12,7 @@ export default function PostSuccess() {
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <img
           className="tracking-widest align-middle"
-          src={heroes}
+          src={ubiquoLogo}
           alt="LOGO"
           width={400}
           height={400}
